@@ -1,1 +1,0 @@
-import{h as a}from"./vendor-@tanstack-start-client-core-Byda1F_Z.js";import{A as i,R as e}from"./vendor-@tanstack-react-router-B5Cr_tgy.js";import{j as o}from"./vendor-react-DBfZMXgS.js";async function n(){const r=await a();return window.$_TSR?.h(),r}var t;function d(){return t||(t=n()),o.jsx(i,{promise:t,children:r=>o.jsx(e,{router:r})})}export{d as S};
