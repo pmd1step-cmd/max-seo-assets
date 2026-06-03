@@ -1,0 +1,1 @@
+import{c as r}from"./vendor-zod-8K7xYh96.js";var h=u=>{const t="input"in u?u.input:"input",p="output"in u?u.output:"output",a="schema"in u?u.schema._input:u._input,c="schema"in u?u.schema._output:u._output;return{types:{input:t==="output"?c:a,output:p==="input"?a:c},parse:e=>"schema"in u?u.schema.parse(e):u.parse(e)}},n=(u,t)=>r().pipe(u.catch(t));export{n as f,h as z};

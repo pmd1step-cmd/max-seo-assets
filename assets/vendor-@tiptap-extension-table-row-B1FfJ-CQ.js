@@ -1,0 +1,1 @@
+import{N as e,m as r}from"./vendor-@tiptap-core-BPwy0JRM.js";const o=e.create({name:"tableRow",addOptions(){return{HTMLAttributes:{}}},content:"(tableCell | tableHeader)*",tableRole:"row",parseHTML(){return[{tag:"tr"}]},renderHTML({HTMLAttributes:t}){return["tr",r(this.options.HTMLAttributes,t),0]}});export{o as T};

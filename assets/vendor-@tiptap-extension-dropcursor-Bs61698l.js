@@ -1,0 +1,1 @@
+import{c as r}from"./vendor-@tiptap-core-BPwy0JRM.js";import{d as o}from"./vendor-prosemirror-dropcursor-BA4q3Gf3.js";const n=r.create({name:"dropCursor",addOptions(){return{color:"currentColor",width:1,class:void 0}},addProseMirrorPlugins(){return[o(this.options)]}});export{n as D};
