@@ -1,0 +1,36 @@
+import { jsxs, jsx } from "react/jsx-runtime";
+import { Link } from "@tanstack/react-router";
+import { B as Button } from "./router-CIxMIIsp.js";
+import "@tanstack/react-query";
+import "react";
+import "lucide-react";
+import "@radix-ui/react-slot";
+import "class-variance-authority";
+import "clsx";
+import "tailwind-merge";
+import "@supabase/supabase-js";
+import "./theme-D1_WM6m3.js";
+import "./vendor-@tanstack-start-server-core-ByIrLJm9.js";
+import "node:async_hooks";
+import "h3-v2";
+import "@tanstack/router-core";
+import "./vendor-@tanstack-start-client-core-Y-xTaqa_.js";
+import "./vendor-@tanstack-start-storage-context-DgH9hIJT.js";
+import "@tanstack/router-core/ssr/client";
+import "seroval";
+import "@tanstack/history";
+import "@tanstack/router-core/ssr/server";
+import "sonner";
+import "zod";
+import "@radix-ui/react-dialog";
+import "./sitemap.server-_9RNU9F4.js";
+import "./client.server-DNj-FA3T.js";
+import "@tanstack/zod-adapter";
+const SplitNotFoundComponent = () => /* @__PURE__ */ jsxs("div", { className: "mx-auto max-w-[1280px] px-4 py-20 text-center", children: [
+  /* @__PURE__ */ jsx("h1", { className: "text-3xl font-bold", children: "Специалист не найден" }),
+  /* @__PURE__ */ jsx("p", { className: "mt-2 text-muted-foreground", children: "Возможно, профиль снят с публикации." }),
+  /* @__PURE__ */ jsx(Button, { asChild: true, className: "mt-6", children: /* @__PURE__ */ jsx(Link, { to: "/specialists", children: "В каталог" }) })
+] });
+export {
+  SplitNotFoundComponent as notFoundComponent
+};
