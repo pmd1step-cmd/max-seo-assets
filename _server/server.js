@@ -1,5 +1,5 @@
-import { s } from "./assets/vendor-@tanstack-react-start-BgOlRn6E.js";
-import "./assets/vendor-@tanstack-start-server-core-DBOu91YS.js";
+import { s } from "./assets/vendor-@tanstack-react-start-zjnD63rx.js";
+import "./assets/vendor-@tanstack-start-server-core-Di5y2R_q.js";
 import "node:async_hooks";
 import "h3-v2";
 import "@tanstack/router-core";
