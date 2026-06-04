@@ -1,9 +1,9 @@
-import { c as createStartHandler } from "./assets/vendor-@tanstack-start-server-core-Cpfbehp8.js";
+import { c as createStartHandler } from "./assets/vendor-@tanstack-start-server-core-CW-Ti_RT.js";
 import { d as defaultStreamHandler } from "./assets/vendor-@tanstack-react-start-server-B9hs-JjY.js";
 import "node:async_hooks";
 import "h3-v2";
 import "@tanstack/router-core";
-import "./assets/vendor-@tanstack-start-client-core-Y-xTaqa_.js";
+import "./assets/vendor-@tanstack-start-client-core-C41cjU9Y.js";
 import "./assets/vendor-@tanstack-start-storage-context-DgH9hIJT.js";
 import "@tanstack/router-core/ssr/client";
 import "seroval";
