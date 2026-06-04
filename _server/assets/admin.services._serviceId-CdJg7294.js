@@ -1,0 +1,50 @@
+import { jsx } from "react/jsx-runtime";
+import { S as ServiceEditor } from "./ServiceEditor-c54GYlc6.js";
+import { aw as Route } from "./router-CG8mWS_v.js";
+import "react";
+import "@tanstack/react-query";
+import "@tanstack/react-router";
+import "sonner";
+import "lucide-react";
+import "zod";
+import "./serviceMutations-CjP5LS7V.js";
+import "./slugify-DPRENmKe.js";
+import "./input-DkdFKidN.js";
+import "./textarea-DCG0_g6e.js";
+import "./label-BX4XYhze.js";
+import "@radix-ui/react-label";
+import "class-variance-authority";
+import "./checkbox-CfMd8XMZ.js";
+import "@radix-ui/react-checkbox";
+import "./tabs-BHFnNNFe.js";
+import "@radix-ui/react-tabs";
+import "./select-D2KrrBXz.js";
+import "@radix-ui/react-select";
+import "@radix-ui/react-slot";
+import "clsx";
+import "tailwind-merge";
+import "@supabase/supabase-js";
+import "./theme-D1_WM6m3.js";
+import "./vendor-@tanstack-start-server-core-gvZEVKwN.js";
+import "node:async_hooks";
+import "h3-v2";
+import "@tanstack/router-core";
+import "./vendor-@tanstack-start-client-core-C41cjU9Y.js";
+import "./vendor-@tanstack-start-storage-context-DgH9hIJT.js";
+import "@tanstack/router-core/ssr/client";
+import "seroval";
+import "@tanstack/history";
+import "@tanstack/router-core/ssr/server";
+import "@radix-ui/react-dialog";
+import "./sitemap.server-BVrO7XJx.js";
+import "./client.server-DNj-FA3T.js";
+import "@tanstack/zod-adapter";
+function EditServiceRoute() {
+  const {
+    serviceId
+  } = Route.useParams();
+  return /* @__PURE__ */ jsx(ServiceEditor, { mode: "edit", serviceId });
+}
+export {
+  EditServiceRoute as component
+};
