@@ -1,4 +1,4 @@
-import { c as createStartHandler } from "./assets/vendor-@tanstack-start-server-core-BmXFLdnG.js";
+import { c as createStartHandler } from "./assets/vendor-@tanstack-start-server-core-BB87h-KU.js";
 import { d as defaultStreamHandler } from "./assets/vendor-@tanstack-react-start-server-B9hs-JjY.js";
 import "node:async_hooks";
 import "h3-v2";
@@ -14,7 +14,7 @@ import "@tanstack/react-router";
 import "react/jsx-runtime";
 import "@tanstack/react-router/ssr/server";
 const fetchHandler = createStartHandler(defaultStreamHandler);
-const SKIP_PREFIXES = ["/_build/", "/assets/", "/api/", "/@", "/__"];
+const SKIP_PREFIXES = ["/_", "/assets/", "/api/", "/@"];
 function shouldSkip(pathname) {
   if (SKIP_PREFIXES.some((p) => pathname.startsWith(p))) return true;
   const last = pathname.split("/").pop() ?? "";
