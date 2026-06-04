@@ -29,7 +29,7 @@ const server = {
       target.pathname = url.pathname.toLowerCase();
       return Response.redirect(target.toString(), 301);
     }
-    return fetchHandler.fetch(request, ...rest);
+    return fetchHandler(request, ...rest);
   }
 };
 export {
