@@ -1,4 +1,4 @@
-import { c as createStartHandler } from "./assets/vendor-@tanstack-start-server-core-gvZEVKwN.js";
+import { c as createStartHandler } from "./assets/vendor-@tanstack-start-server-core-B-8_7z8C.js";
 import { d as defaultStreamHandler } from "./assets/vendor-@tanstack-react-start-server-B9hs-JjY.js";
 import "node:async_hooks";
 import "h3-v2";
@@ -13,7 +13,6 @@ import "react";
 import "@tanstack/react-router";
 import "react/jsx-runtime";
 import "@tanstack/react-router/ssr/server";
-const fetchHandler = createStartHandler(defaultStreamHandler);
 const SKIP_PREFIXES = ["/_", "/assets/", "/api/", "/@"];
 function shouldSkip(pathname) {
   if (SKIP_PREFIXES.some((p) => pathname.startsWith(p))) return true;
@@ -84,6 +83,7 @@ const server = {
       target.pathname = url.pathname.toLowerCase();
       return withSecurityHeaders(Response.redirect(target.toString(), 301));
     }
+    const fetchHandler = createStartHandler({ handler: defaultStreamHandler });
     const response = await fetchHandler(request, ...rest);
     return withSecurityHeaders(response);
   }
