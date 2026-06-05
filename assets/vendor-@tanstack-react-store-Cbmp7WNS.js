@@ -1,1 +1,0 @@
-import{a as s}from"./vendor-react-DBfZMXgS.js";import{w as a}from"./vendor-use-sync-external-store-DIdhnHHo.js";function i(e,t){return e===t}function S(e,t,n=i){const o=s.useCallback(c=>{if(!e)return()=>{};const{unsubscribe:u}=e.subscribe(c);return u},[e]),r=s.useCallback(()=>e?.get(),[e]);return a.useSyncExternalStoreWithSelector(o,r,r,t,n)}export{S as u};
