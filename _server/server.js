@@ -1,4 +1,4 @@
-import { c as createStartHandler } from "./assets/vendor-@tanstack-start-server-core-DQkimr5J.js";
+import { c as createStartHandler } from "./assets/vendor-@tanstack-start-server-core-Dhbaly9m.js";
 import { d as defaultStreamHandler } from "./assets/vendor-@tanstack-react-start-server-B9hs-JjY.js";
 import "node:async_hooks";
 import "h3-v2";
