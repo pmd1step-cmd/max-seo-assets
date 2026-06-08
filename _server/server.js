@@ -126,17 +126,17 @@ const manifest = {
     functionName: "getSiteSettingsFn_createServerFn_handler",
     importer: () => import("./assets/site-settings.functions-IhkZBJ0s.js")
   },
-  "6b8b13552f92f4dab0a3aa867767d63090686451d557e4588ee383e6e36ca0ff": {
-    functionName: "revealServiceRoleKey_createServerFn_handler",
-    importer: () => import("./assets/reveal-key.functions-0wkjXGHq.js")
+  "29ced5f2dcc7c1623059e1e6889516930b4805911d8c04c06e8ff1063d06cca5": {
+    functionName: "setThemeCookieFn_createServerFn_handler",
+    importer: () => import("./assets/theme.functions-DfM_xyvc.js")
   },
   "03eb80c9fe699e90a5241b29c2418a64adf0e37ec2686bf6faa3accedd59a269": {
     functionName: "getHtmlSitemap_createServerFn_handler",
     importer: () => import("./assets/htmlSitemap.functions-BMG__G1a.js")
   },
-  "29ced5f2dcc7c1623059e1e6889516930b4805911d8c04c06e8ff1063d06cca5": {
-    functionName: "setThemeCookieFn_createServerFn_handler",
-    importer: () => import("./assets/theme.functions-DfM_xyvc.js")
+  "6b8b13552f92f4dab0a3aa867767d63090686451d557e4588ee383e6e36ca0ff": {
+    functionName: "revealServiceRoleKey_createServerFn_handler",
+    importer: () => import("./assets/reveal-key.functions-0wkjXGHq.js")
   },
   "7495b1e944a8a8a5cfe07e758520e82259347f5359e8f427606cf7c03d98d792": {
     functionName: "getSitemapEntries_createServerFn_handler",
