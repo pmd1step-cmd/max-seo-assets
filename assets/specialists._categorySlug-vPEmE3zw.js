@@ -1,1 +1,0 @@
-import{j as e}from"./index-D2o0_2S0.js";const o=({error:t})=>e.jsxs("div",{className:"mx-auto max-w-[720px] px-4 py-20 text-center",children:[e.jsx("h1",{className:"text-2xl font-bold",children:"Ошибка загрузки"}),e.jsx("p",{className:"mt-2 text-sm text-muted-foreground",children:t.message})]});export{o as errorComponent};
