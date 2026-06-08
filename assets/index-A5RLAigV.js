@@ -1,0 +1,1 @@
+import{j as t}from"./index-Cr4uJL0L.js";import{R as m}from"./RouteError-B7CH1AdN.js";import"./refresh-cw-BBzl4gwV.js";const i=({error:o,reset:r})=>t.jsx(m,{error:o,reset:r,title:"Не удалось загрузить главную"});export{i as errorComponent};
