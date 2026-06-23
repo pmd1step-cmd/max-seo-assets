@@ -1,0 +1,1 @@
+import{j as t}from"./index-BRGP62YT.js";import{R as m}from"./RouteError-CDp93ocH.js";import"./refresh-cw-Di_-wRLn.js";const i=({error:o,reset:r})=>t.jsx(m,{error:o,reset:r,title:"Не удалось загрузить специалистов"});export{i as errorComponent};

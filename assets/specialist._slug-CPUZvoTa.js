@@ -1,1 +1,0 @@
-import{j as t}from"./index-CxHE87BR.js";import{R as m}from"./RouteError-DdCfAa7E.js";import"./refresh-cw-Z7U6rN5b.js";const i=({error:o,reset:r})=>t.jsx(m,{error:o,reset:r,title:"Не удалось загрузить профиль специалиста"});export{i as errorComponent};
