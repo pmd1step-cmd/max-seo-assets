@@ -1,0 +1,1 @@
+import{g as r,j as e,O as s}from"./index-GfBYI7BC.js";function a(){const{auth:t}=r.useRouteContext();return t.isReady?e.jsx(s,{}):e.jsx("div",{className:"flex min-h-[40vh] items-center justify-center",children:e.jsx("div",{className:"h-8 w-8 animate-spin rounded-full border-2 border-primary border-t-transparent"})})}export{a as component};
