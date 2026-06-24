@@ -1,0 +1,1 @@
+import{j as t}from"./index-6ESLZWQT.js";import{R as m}from"./RouteError-CvVKWYzF.js";import"./refresh-cw-DLs7Lka-.js";const i=({error:o,reset:r})=>t.jsx(m,{error:o,reset:r,title:"Не удалось загрузить кейсы"});export{i as errorComponent};
