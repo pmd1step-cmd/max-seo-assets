@@ -1,0 +1,1 @@
+import{j as t}from"./vendor-react-CdJ_jL6r.js";import{R as m}from"./RouteError-u88jGQB1.js";import"./vendor-tanstack-DsYgH8Dr.js";import"./vendor-radix-B3RNXbX8.js";import"./vendor-supabase-CPBQX_2L.js";import"./vendor-lucide-CMpGqhUE.js";const a=({error:o,reset:r})=>t.jsx(m,{error:o,reset:r,title:"Не удалось загрузить главную"});export{a as errorComponent};
