@@ -1,4 +1,7 @@
-import { c as createStartHandler, d as defaultStreamHandler } from "./assets/vendor-tanstack-0xLTZYnB.js";
+import Beasties from "beasties";
+import { fileURLToPath } from "node:url";
+import { dirname, resolve } from "node:path";
+import { c as createStartHandler, d as defaultStreamHandler } from "./assets/vendor-tanstack-BWAKEtDn.js";
 import "react/jsx-runtime";
 import "seroval";
 import "node:async_hooks";
@@ -10,6 +13,15 @@ import "@tanstack/router-core";
 import "@tanstack/history";
 import "@tanstack/router-core/ssr/client";
 import "@tanstack/react-router/ssr/server";
+const __dirname$1 = dirname(fileURLToPath(import.meta.url));
+const beasties = new Beasties({
+  path: resolve(__dirname$1, "../client"),
+  publicPath: "/",
+  preload: "media",
+  inlineFonts: false,
+  pruneSource: false,
+  logLevel: "silent"
+});
 const SKIP_PREFIXES = ["/_", "/assets/", "/api/", "/@"];
 function shouldSkip(pathname) {
   if (SKIP_PREFIXES.some((p) => pathname.startsWith(p))) return true;
@@ -88,7 +100,24 @@ const server = {
       redirect: request.redirect
       // body/credentials у HEAD нет — пересоздаём минимально.
     }) : request;
-    const response = await fetchHandler(effectiveRequest, ...rest);
+    let response = await fetchHandler(effectiveRequest, ...rest);
+    if (beasties && response.status === 200 && response.body) {
+      const ct = response.headers.get("content-type") ?? "";
+      if (ct.includes("text/html")) {
+        try {
+          const html = await response.text();
+          const processed = await beasties.process(html);
+          const headers = new Headers(response.headers);
+          headers.delete("content-length");
+          response = new Response(processed, {
+            status: response.status,
+            statusText: response.statusText,
+            headers
+          });
+        } catch {
+        }
+      }
+    }
     const secured = withSecurityHeaders(response);
     if (isHead) {
       try {
