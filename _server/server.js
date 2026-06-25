@@ -1,7 +1,7 @@
 import Beasties from "beasties";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
-import { c as createStartHandler, d as defaultStreamHandler } from "./assets/vendor-tanstack-BWAKEtDn.js";
+import { c as createStartHandler, d as defaultStreamHandler } from "./assets/vendor-tanstack-CFK0L2Fi.js";
 import "react/jsx-runtime";
 import "seroval";
 import "node:async_hooks";

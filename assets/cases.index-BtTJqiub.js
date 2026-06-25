@@ -1,0 +1,1 @@
+import{j as t}from"./vendor-react-CdJ_jL6r.js";import{R as m}from"./RouteError-D2387IJr.js";import"./vendor-tanstack-B5RarO9V.js";import"./vendor-radix-B3RNXbX8.js";import"./vendor-supabase-CPBQX_2L.js";import"./vendor-lucide-CMpGqhUE.js";const a=({error:o,reset:r})=>t.jsx(m,{error:o,reset:r,title:"Не удалось загрузить кейсы"});export{a as errorComponent};
