@@ -1,1 +1,0 @@
-import{r as p,j as v,a5 as x}from"./index-C2O6Ax-k.js";const i=p.forwardRef(function({children:e,className:s,delay:a=0,y:r=16,as:t="div",style:o,...n},c){const l=t,m={...o,"--reveal-delay":`${a}ms`,"--reveal-y":`${r}px`};return v.jsx(l,{ref:c,className:x("reveal",s),style:m,...n,children:e})});export{i as R};

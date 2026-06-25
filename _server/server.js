@@ -93,7 +93,7 @@ function getResponse() {
 }
 var HEADERS = { TSS_SHELL: "X-TSS_SHELL" };
 async function getStartManifest(matchedRoutes) {
-  const { tsrStartManifest } = await import("./assets/_tanstack-start-manifest_v-CJQAUeuV.js");
+  const { tsrStartManifest } = await import("./assets/_tanstack-start-manifest_v-CoUX2KVm.js");
   const startManifest = tsrStartManifest();
   const rootRoute = startManifest.routes[rootRouteId] = startManifest.routes[rootRouteId] || {};
   rootRoute.assets = rootRoute.assets || [];
@@ -118,25 +118,25 @@ async function getStartManifest(matchedRoutes) {
   };
 }
 const manifest = {
-  "8604e91a3b17b3cb4113e226a3b90ed51d427dc03a30494a60ba86efdef44c63": {
-    functionName: "getSiteSettingsFn_createServerFn_handler",
-    importer: () => import("./assets/site-settings.functions-IhkZBJ0s.js")
-  },
   "cbb6bc6d6687d3122fe9c15a250f07265d616be9efef9da718dd570976d1d3a8": {
     functionName: "getInitialThemeFn_createServerFn_handler",
     importer: () => import("./assets/theme-init.functions-DCbmCz97.js")
+  },
+  "8604e91a3b17b3cb4113e226a3b90ed51d427dc03a30494a60ba86efdef44c63": {
+    functionName: "getSiteSettingsFn_createServerFn_handler",
+    importer: () => import("./assets/site-settings.functions-IhkZBJ0s.js")
   },
   "03eb80c9fe699e90a5241b29c2418a64adf0e37ec2686bf6faa3accedd59a269": {
     functionName: "getHtmlSitemap_createServerFn_handler",
     importer: () => import("./assets/htmlSitemap.functions-BMG__G1a.js")
   },
-  "29ced5f2dcc7c1623059e1e6889516930b4805911d8c04c06e8ff1063d06cca5": {
-    functionName: "setThemeCookieFn_createServerFn_handler",
-    importer: () => import("./assets/theme.functions-DfM_xyvc.js")
-  },
   "6b8b13552f92f4dab0a3aa867767d63090686451d557e4588ee383e6e36ca0ff": {
     functionName: "revealServiceRoleKey_createServerFn_handler",
     importer: () => import("./assets/reveal-key.functions-0wkjXGHq.js")
+  },
+  "29ced5f2dcc7c1623059e1e6889516930b4805911d8c04c06e8ff1063d06cca5": {
+    functionName: "setThemeCookieFn_createServerFn_handler",
+    importer: () => import("./assets/theme.functions-DfM_xyvc.js")
   },
   "7495b1e944a8a8a5cfe07e758520e82259347f5359e8f427606cf7c03d98d792": {
     functionName: "getSitemapEntries_createServerFn_handler",
@@ -895,7 +895,7 @@ var baseManifestPromise;
 var cachedFinalManifestPromise;
 async function loadEntries() {
   const [routerEntry, startEntry, pluginAdapters] = await Promise.all([
-    import("./assets/router-DUtz-x1q.js").then((n) => n.ay),
+    import("./assets/router-COYVRa-T.js").then((n) => n.ay),
     import("./assets/start-HYkvq4Ni.js"),
     import("./assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js")
   ]);
