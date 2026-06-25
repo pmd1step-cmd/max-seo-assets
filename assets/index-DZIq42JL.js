@@ -1,0 +1,1 @@
+import{r as t,n as o,j as r}from"./vendor-react-CdJ_jL6r.js";import{S as i}from"./vendor-tanstack-CWIK6w6n.js";import"./vendor-radix-B3RNXbX8.js";import"./vendor-supabase-CPBQX_2L.js";import"./vendor-lucide-CMpGqhUE.js";t.startTransition(()=>{o.hydrateRoot(document,r.jsx(t.StrictMode,{children:r.jsx(i,{})}))});

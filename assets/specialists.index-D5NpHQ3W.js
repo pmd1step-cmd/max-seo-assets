@@ -1,1 +1,0 @@
-import{j as t}from"./vendor-react-CdJ_jL6r.js";import{R as m}from"./RouteError-Cxw5wI_6.js";import"./vendor-tanstack-Dx0Q-iW6.js";import"./vendor-radix-B3RNXbX8.js";import"./vendor-supabase-CPBQX_2L.js";import"./vendor-lucide-CMpGqhUE.js";const a=({error:o,reset:r})=>t.jsx(m,{error:o,reset:r,title:"Не удалось загрузить специалистов"});export{a as errorComponent};

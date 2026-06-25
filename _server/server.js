@@ -1,4 +1,4 @@
-import { c as createStartHandler, d as defaultStreamHandler } from "./assets/vendor-tanstack-CnfQFLeX.js";
+import { c as createStartHandler, d as defaultStreamHandler } from "./assets/vendor-tanstack-0xLTZYnB.js";
 import "react/jsx-runtime";
 import "seroval";
 import "node:async_hooks";
