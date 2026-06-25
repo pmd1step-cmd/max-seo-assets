@@ -1,1 +1,0 @@
-import{r as p,j as v}from"./vendor-react-CdJ_jL6r.js";import{V as x}from"./vendor-tanstack-DsYgH8Dr.js";const d=p.forwardRef(function({children:e,className:s,delay:r=0,y:a=16,as:o="div",style:t,...n},c){const l=o,m={...t,"--reveal-delay":`${r}ms`,"--reveal-y":`${a}px`};return v.jsx(l,{ref:c,className:x("reveal",s),style:m,...n,children:e})});export{d as R};
